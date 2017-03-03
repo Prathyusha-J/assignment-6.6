@@ -1,0 +1,29 @@
+				ASSIGNMENT 6.3
+
+1. Explain the difference between FIFO and Capacity scheduler
+A)
+	FIFO SCHEDULER					CAPACITY SCHEDULER
+      (i)It is a default scheduler that does'nt involve in                 (i)This includes preemption but this stops when the 
+         Preemption					job fails.
+      (ii)It does'nt  have fair sharing of resources.	             (ii) This always includes fair sharing of the resources.
+      (iii)It involves in better work with the small clusters.             (iii)It involves in work with the large clusters.
+      (iv)only after completion of previous job,next jobs	             (iv) Here multiple job queues can be allocated.
+          will be assigned.
+
+2. What are the limitations of hadoop 1.x and how they were overcome in hadoop 2.x
+A) (i)Hadoop 1.x tends  to support only one namespace for the management of hdfs.
+        Hadoop 2.x results in supporting multiple namespaces.
+     (ii)Hadoop 1.x supports majorly mapreduce.
+         Hadoop 2.x supports YARN which also includes mapreduce and so on.
+     (iii)Hadoop 1.x lacks scalability and other features
+          Hadoop 2.x overcomes them by its new architecture.
+     (iv)Hadoop 1.x contain about 4000 nodes per cluster.
+          Hadoop 2.x has double the time nodes per cluster.
+     (v)Hadoop 1.x contains fixed-sized storage slots.
+         Hadoop 2.x have variable-sized storage slots in it for large storage.
+
+
+
+
+
+
